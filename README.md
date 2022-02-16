@@ -1,1 +1,5 @@
 # AP-Pys
+
+1) Temperature demonstrates a strong inverse correlation with latitude & maximizes its value at the Equator, which is the zero latitude line on all maps. Moving further away from the equater drops the temperature with a clear linear relationship.
+2) Wind speed demonstrates considerable clustering below 15 mph, with no discernable pattern of distribution below this boundary. Notable outliers in this dataset are likely explainable by examining the overall weather conditions of the city during the instance of API query, which would likely show storm activity to account for the elevated wind speed.
+3) The largest discrepancy between Northern and Southern hemispheres in the data set appears to be temperature correlation to latitude. While the Northern hemisphere data shows a strong inverse correlation, the Southern hemisphere data is noticeably less correlated. This could be explained by the time of year at which the API was queried, which has the Southern hemisphere angled closer to the sun due to the tilt of the Earth's access –– this time is traditionally winter in the Northern hemisphere & summer in the Southern hemisphere.
